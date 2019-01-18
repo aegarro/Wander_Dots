@@ -1,0 +1,3 @@
+The system shall provide the user an accurate list of adventures based on the specified filter.
+The system shall display accurate directions to the specified adventure.
+The system shall provide a user space for each adventure where useres can freely read and comment.
