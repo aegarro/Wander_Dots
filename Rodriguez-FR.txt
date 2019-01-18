@@ -1,0 +1,12 @@
+The system shall provide the ability to view all Dots* located within one mile from the user’s location. 
+
+The system shall provide a user the ability to post an adventure* to a Dot* when they are at least 250 ft. from it. 
+
+The system shall provide the shortest route from the user to a Dot* within 30 seconds of selecting the Dot.
+
+Definitions
+
+Dot: A location on a map that at least one user has saved.
+
+Adventure: A written report of a user’s encounter with a Dot.
+
