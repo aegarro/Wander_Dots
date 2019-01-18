@@ -1,0 +1,6 @@
+As a unregistered user, I want to be able to see the posts of registered users, so that I can understand what this app is about.
+
+As a registered user, I want to be able to make posts private, so that I can have control over who sees my post.
+
+As a registered user, I want to be able to view the posts of other registered users around me, so that I can interact with users in my area.
+
