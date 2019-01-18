@@ -1,0 +1,3 @@
+As a user, I want to see the difficulty of the adventure, so that I can judge which adventure I want to go on.
+As a user, I want to upload photos of my adventure, so that I can show others.
+As a user, I want rate the adventures I go on, so that I can express my opinion to others.
