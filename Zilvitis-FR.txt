@@ -1,0 +1,8 @@
+The system shall allow the user to filter the adventures they see by specifying their preferred type, popularity level, or difficulty.
+
+
+The system shall provide the capability for a user to make the adventure they input either private or public.
+
+
+The system shall provide the option to remove adventures that the user has already gone on from their view, and still provide a way to access the stories about those adventures.
+
