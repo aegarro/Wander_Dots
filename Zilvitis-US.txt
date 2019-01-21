@@ -1,0 +1,8 @@
+As a recurring user, I want the system to show me adventures in my area that I havn't been on, so that I am never bored.
+
+
+As a first time user, I want to filter the type of adventure I see, so that I can find the ones I am most interested in.
+
+
+As a social user, I want to send potential adventures to my friends, so that I can adventure with them.
+
