@@ -1,1 +1,5 @@
-dkjg
+1. As a user, I want to upload images, so that other users can see my adventure.
+
+2. As a user, I want to sort adventures based on distance, so that I can find the closest one to go to.
+
+3. As a user, I want to know the directions to each adventure, so that I can navigate to them easily.
