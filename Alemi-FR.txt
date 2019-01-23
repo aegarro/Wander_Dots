@@ -1,0 +1,10 @@
+The system shall track my location along with my proximity to nearby dots* and represent this info on a resizable map.
+
+The system shall distinguish between public dots* and private dots* (those shared by friends) when representing dots* on the map.
+
+The system shall allow user adventures* to include multiple dots*.
+
+Definitions:
+Dot: A location on a map that a user has saved.
+Adventure: A written report of a user’s encounter with a Dot. 
+

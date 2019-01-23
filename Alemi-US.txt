@@ -1,0 +1,9 @@
+As a freshman at my new school, I want to be able to know which dots* are on campus, so I can familiarize myself with an unknown place.
+
+As someone who has already explored my local area, I want the ability control who I share my dots* with, so I can keep my lowkey spots secret with those close to me.
+As someone who has limited accessibility, I want to know the difficulty of each adventure*, so that I can choose adventures* that I am able to access.
+
+Definitions:
+Dot: A location on a map that a user has saved.
+Adventure: A written report of a user’s encounter with a Dot. 
+
