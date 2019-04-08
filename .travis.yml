@@ -1,12 +1,12 @@
 language: java
 jdk:
-- oraclejdk8
+- oraclejdk9
 
 addons:
   sonarcloud:
     organization: "aegarro-github"
     token:
-      secure: "e6dc635aec6d791a01c3e018f2ec0edf8118e75d"
+      secure: "8402b54d6cfe970823604c8e2d0158018b09e48e"
 script:
 - ant build
 - sonar-scanner
