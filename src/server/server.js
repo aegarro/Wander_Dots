@@ -8,3 +8,5 @@ app.get("/api/test", (req, res) => {
 }) ; 
 
 app.listen(PORT) ; 
+
+module.exports = app ; 
