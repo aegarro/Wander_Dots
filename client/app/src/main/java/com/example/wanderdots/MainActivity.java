@@ -23,11 +23,10 @@ public class MainActivity extends AppCompatActivity {
     private void testhttps(){
 
         final TextView textView = (TextView) findViewById(R.id.text);
-        // ...
 
         // Instantiate the RequestQueue.
         RequestQueue queue = Volley.newRequestQueue(this);
-        String url ="http://localhost:5000/api/test";
+        String url ="http://10.0.2.2:5000/api/test";
 
         // Request a string response from the provided URL.
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
@@ -35,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(String response) {
                         // Display the first 500 characters of the response string.
-                        textView.setText("Response is: "+ response.substring(0,500));
+                        textView.setText("Response is: "+ response);
                     }
                 }, new Response.ErrorListener() {
             @Override
