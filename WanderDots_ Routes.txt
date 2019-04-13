@@ -1,0 +1,36 @@
+﻿Backend:
+        PUT /api/put/dot/id
+        PUT /api/put/adventure/id
+        GET /api/get/dots              -> All Dots
+GET /api/get/adventure     -> All Adventures
+POST /post/dot
+POST /post/adventure
+Del /delete/dot/id
+Del /delete/adventure/id
+
+
+EXPERIENCE
+{
+        Creator: string
+        Descr: string
+        Categories: [string]
+        Name: string
+        Picture Ids: [string]
+        Location Object: {
+                                Latitude: string
+                                Longitude: string
+                             }
+}
+
+
+DOT extends EXPERIENCE
+{
+        Adventures: [(id: string)]
+        
+}
+
+
+ADVENTURE extends EXPERIENCE
+{
+        dotsVisited: [(id:string)]
+}

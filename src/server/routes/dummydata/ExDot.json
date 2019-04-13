@@ -1,0 +1,12 @@
+[{
+  "creator": "Rick",
+  "description":"You pass butter",
+  "categories": ["Rick and Morty"],
+  "name": "Butter Bot",
+  "pictureIds": ["https://i.kym-cdn.com/entries/icons/facebook/000/022/418/IOmSlaOQ_400x400.jpg"],
+  "location": {
+    "longitude": "47.6062",
+    "latitude": "122.3321"
+  },
+  "adventures": ["2"]
+}]
