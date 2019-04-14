@@ -1,23 +1,22 @@
 
 const expect = require("expect") ;
-const request = require("supertest") ;
 const {describe, it} = require("mocha") ;
+const request = require("supertest") ;
 const app = require("../../server") ;
 const fs = require("fs") ;
 const path = require("path") ;
-const dataPath = path.join(__dirname, "../../routes/dummydata/ExDot.json") ;
-const dot = JSON.parse(fs.readFileSync(dataPath).toString())[0];
+const dataPath = path.join(__dirname, "../../routes/dummydata/ExAdventure.json") ;
+const adventure = JSON.parse(fs.readFileSync(dataPath).toString())[0];
 
-describe("/api/post/dot", () => {
-
-    it("Creating a dot with valid data", (done) => {
+describe("/api/post/adventure", () => {
+    it("Creating a adventure with valid data", (done) => {
         request(app)
-            .post("/api/post/dot")
-            .send(dot)
+            .post("/api/post/adventure")
+            .send(adventure)
             .expect(200)
             .end((error, res) => {
-                console.log(res.body)
                 if(error) done(error) ;
+                console.log(res.body)
                 expect(res.body.id).toBeDefined() ;
                 expect(res.body.error).toBeUndefined() ;
                 done() ;
@@ -26,7 +25,7 @@ describe("/api/post/dot", () => {
 
     it("Creating a dot", (done) => {
         request(app)
-            .post("/api/post/dot")
+            .post("/api/post/adventure")
             .send({})
             .expect(200)
             .end((error, res) => {
@@ -37,3 +36,4 @@ describe("/api/post/dot", () => {
             }) ;
     }) ;
 }) ;
+

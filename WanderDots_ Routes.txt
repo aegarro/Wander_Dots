@@ -11,12 +11,12 @@ Del /delete/adventure/id
 
 EXPERIENCE
 {
-        Creator: string
-        Descr: string
-        Categories: [string]
-        Name: string
-        Picture Ids: [string]
-        Location Object: {
+        creator: Str
+        description: Str
+        categories: [string]
+        name: string
+        pictureIds: [string]
+        location: {
                                 Latitude: string
                                 Longitude: string
                              }
@@ -25,7 +25,7 @@ EXPERIENCE
 
 DOT extends EXPERIENCE
 {
-        Adventures: [(id: string)]
+        adventures: [(id: string)]
         
 }
 

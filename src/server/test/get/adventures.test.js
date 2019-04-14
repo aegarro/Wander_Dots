@@ -1,6 +1,7 @@
 
 const expect = require("expect") ;
 const request = require("supertest") ;
+const {describe, it} = require("mocha") ;
 const app = require("../../server") ;
 
 describe("/api/get/adventures", () => {
@@ -13,16 +14,16 @@ describe("/api/get/adventures", () => {
     it("Array Returned", (done) => {
         request(app)
             .get("/api/get/adventures")
-            .then(res => {
+            .end((error, res) => {
                 expect(res.body.length).toBeDefined() ;
                 done();
-            }) ;
+            })
     }) ;
 
     it("Contains at least one adventure", (done) => {
         request(app)
             .get("/api/get/adventures")
-            .then(res => {
+            .end((error, res) => {
                 const dot = res.body[0] ;
                 expect(dot).toBeDefined() ;
                 done();
